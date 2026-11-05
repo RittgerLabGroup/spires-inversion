@@ -98,8 +98,7 @@ jobs:
     name: Publish to PyPI
     needs: [build-wheels, build-sdist]
     runs-on: ubuntu-latest
-    # Only publish on tag push or manual workflow dispatch
-    if: github.event_name == 'release' || github.event_name == 'workflow_dispatch'
+    if: github.repository_owner == 'SPIReS-Organization' && github.event_name == 'release'
     permissions:
       id-token: write  # Required for trusted publishing
 

@@ -19,10 +19,7 @@ xarray
 netCDF4
 dask[distributed]
 
-# spires-contract is imported at module load (spires_inversion.invert) but is
-# not yet on PyPI; install the pinned tag from GitHub. Replace with a plain
-# version spec once it publishes.
-spires-contract @ git+https://github.com/SPIReS-Organization/spires-contract@v1.0.0
+spires-contract @ git+https://github.com/RittgerLabGroup/spires-contract.git@dda5155c9af5d4976d67de0fb6de1ff1d73d080d
 
 # Version detection
 setuptools-scm

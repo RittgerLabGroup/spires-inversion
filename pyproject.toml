@@ -32,9 +32,7 @@ classifiers = [
 ]
 dependencies = [
     # Contract validators are called at the standardized inversion boundaries.
-    # Not yet on PyPI -> pinned tag from GitHub (bump deliberately, not by
-    # floating on main, so contract changes can't silently break CI here).
-    "spires-contract @ git+https://github.com/SPIReS-Organization/spires-contract@v2.0.0",
+    "spires-contract @ git+https://github.com/RittgerLabGroup/spires-contract.git@dda5155c9af5d4976d67de0fb6de1ff1d73d080d",
     "numpy",
     "h5py",
     "scipy",
@@ -45,11 +43,11 @@ dynamic = ["version"]  # This tells the backend to get version from setuptools_s
 
 
 [project.urls]
-Homepage = "https://github.com/SPIReS-Organization/spires-inversion"
+Homepage = "https://github.com/RittgerLabGroup/spires-inversion"
 Documentation = "https://spires-inversion.readthedocs.io"
-Repository = "https://github.com/SPIReS-Organization/spires-inversion"
-"Bug Tracker" = "https://github.com/SPIReS-Organization/spires-inversion/issues"
-Changelog = "https://github.com/SPIReS-Organization/spires-inversion/releases"
+Repository = "https://github.com/RittgerLabGroup/spires-inversion"
+"Bug Tracker" = "https://github.com/RittgerLabGroup/spires-inversion/issues"
+Changelog = "https://github.com/RittgerLabGroup/spires-inversion/releases"
 
 
 [project.optional-dependencies]
