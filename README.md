@@ -73,7 +73,7 @@ pip install ".[dev,test,docs]"
 
 ## Usage
 
-See the `examples/` folder for Jupyter notebooks with detailed use cases.
+See `examples/README.md` for the maintained JSON operations configurations in spires-batch.
 
 Basic usage:
 

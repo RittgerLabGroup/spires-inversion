@@ -229,7 +229,7 @@ before return. Lazy results and time stacks receive schema, dtype, coordinate,
 and metadata validation without triggering computation; full numerical
 validation is performed per eager `(y, x)` scene after materialization.
 
-See `examples/05_sentinel_snow_inversion.ipynb` for a complete dask workflow.
+For maintained batch operations, use the JSON configurations linked from [Examples](examples.md).
 
 ## Understanding the Algorithm
 
